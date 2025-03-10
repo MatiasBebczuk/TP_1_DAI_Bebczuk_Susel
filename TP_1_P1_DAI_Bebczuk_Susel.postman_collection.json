@@ -1,0 +1,202 @@
+{
+	"info": {
+		"_postman_id": "95067acf-4fcd-4d10-a1d9-0a06fe109204",
+		"name": "TP_1_P1_DAI_Bebczuk_Susel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Parte_1_Punto_2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?S=Cars&APIKEY=f79875e4&type=movie",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "S",
+							"value": "Cars"
+						},
+						{
+							"key": "APIKEY",
+							"value": "f79875e4"
+						},
+						{
+							"key": "type",
+							"value": "movie"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Parte_1_Punto_3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?APIKEY=f79875e4&S=Hunger&type=movie",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "APIKEY",
+							"value": "f79875e4"
+						},
+						{
+							"key": "S",
+							"value": "Hunger"
+						},
+						{
+							"key": "type",
+							"value": "movie"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Parte_1_Punto_4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?APIKEY=f79875e4&T=Monsters, Inc.&type=movie",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "APIKEY",
+							"value": "f79875e4"
+						},
+						{
+							"key": "T",
+							"value": "Monsters, Inc."
+						},
+						{
+							"key": "type",
+							"value": "movie"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Parte_1_Punto_5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?apikey=f79875e4&t=Rocky IV&type=movie",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "f79875e4"
+						},
+						{
+							"key": "t",
+							"value": "Rocky IV"
+						},
+						{
+							"key": "type",
+							"value": "movie"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Parte_1_Punto_6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?apikey=f79875e4&type=movie&i=tt0067992",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "f79875e4"
+						},
+						{
+							"key": "type",
+							"value": "movie"
+						},
+						{
+							"key": "i",
+							"value": "tt0067992"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey"
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
