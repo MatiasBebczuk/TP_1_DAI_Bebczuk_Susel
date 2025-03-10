@@ -1,5 +1,5 @@
 # Parte 1:
-2) Solicitamos entradas del tipo movie con Cars en el título, el atributo totalResults es devuelve 262 entradas
+2) Solicitamos entradas del tipo movie con Cars en el título, el atributo totalResults devuelve 262 entradas
 3) Solicitamos entradas del tipo movie con Hunger en el título, la que estaba abajo de todo en la lista es "Hunger" de 2009
 4) Siguiendo los mismos pasos de los puntos anteriores solicitamos la película Monsters Inc, devolvió 1,017,055 votos de imdb, actuaron Billy Crystal, John Goodman y Mary Gibbs y su poster es https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_SX300.jpg
 5) Solicitamos la película Rocky IV, devolvió que es de géneros drama y deporte, su director es Sylvester Stallone y dura 91 minutos
